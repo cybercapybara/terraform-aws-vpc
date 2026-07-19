@@ -8,7 +8,7 @@ sane private-by-default settings and consistent tagging.
 
 ```hcl
 module "vpc" {
-  source = "github.com/cybercapybara/terraform-aws-vpc"
+  source = "github.com/moveeeax/terraform-aws-vpc"
 
   name       = "prod-vpc"
   cidr_block = "10.0.0.0/16"
